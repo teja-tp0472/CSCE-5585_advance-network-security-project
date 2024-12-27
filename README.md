@@ -2,6 +2,7 @@
 # Desining and implementing a secure network 
 
 This project focuses on designing and implementing a secure network infrastructure resistant to internal and external cyber threats. It leverages advanced network security tools and best practices to monitor, detect, and mitigate malicious activities and unauthorized access.
+
 ## Objective
 
 1. Develop a secure and resilient network.
@@ -37,9 +38,13 @@ This project focuses on designing and implementing a secure network infrastructu
 4. Sophos Firewall : Used for traffic filtering and also giving limited access to any authorized user, to provide a secure remote access. IPS and IDS can be implemented on malicious traffic. This is acting as a central security device in the network.
 
 5. Internal Network : HR-VLAN, Management-VLAN, DMZ. Where HR-VLAN is connected to the Port A of the firewall, Management-VLAN to the port B of the firewall, Port C of the firewall is connected to the DMZ(Demilitarized Zone). DMZ has onlt http or https services. In this project DMZ acts as a buffer zone between internal and external network.
+
+   ![image](https://github.com/user-attachments/assets/077770bc-ccd6-46c7-bd14-4a929fca805b)
+
 ## Security Enhancement
 
 Intrusion Prevention System (IPS): Monitored and blocked malicious activities using predefined and custom rules
+
 ## Results
 
 1. Enhanced network security with effective risk mitigation strategies.
@@ -47,6 +52,7 @@ Intrusion Prevention System (IPS): Monitored and blocked malicious activities us
 2. Documented baseline configurations and recommended regular audits for compliance.
 
 3. Demonstrated layered security measures for robust protection.
+   
 ## How to run
 
 1. Clone this repository.
@@ -56,6 +62,7 @@ Intrusion Prevention System (IPS): Monitored and blocked malicious activities us
 3. Import and configure Sophos Firewall using the OVA image in VMware.
 
 4. Test and validate network configurations using the provided testing tools.
+   
 ## Contribution
 
 Feel free to fork this repository and submit pull requests for improvements. For major changes, please open an issue first to discuss the proposed changes.
